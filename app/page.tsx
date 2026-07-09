@@ -51,7 +51,7 @@ export default function Home() {
 
         {/* Tagline */}
         <p className="text-[1.05rem] text-[#94a3b8] leading-[1.75] mb-10 max-w-[480px]">
-          Passionate about crafting clean, responsive, and high-performance web experiences using <strong className="text-[#e2e8f0] font-semibold">React.js</strong> and modern technologies.
+          Passionate about crafting clean, responsive, and high-performance web experiences using <strong className="text-[#e2e8f0] font-semibold">React.js, Next.js, TypeScript</strong>, and modern technologies.
         </p>
 
         {/* Action Buttons */}
