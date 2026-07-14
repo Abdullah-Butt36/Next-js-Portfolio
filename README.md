@@ -45,11 +45,11 @@ personal-portfolio/
 │   ├── projects/
 │   │   └── page.tsx        # 💼 Projects — Project cards with image overlays
 │   └── contact/
-│       ├── layout.tsx      # SEO metadata (separated for client component)
-│       └── page.tsx        # 📧 Contact — Form + info cards + social links
+│       └── page.tsx        # 📧 Contact — Page layout, contact info & social links (SSR)
 ├── components/
 │   ├── Navbar.tsx          # Responsive navigation with mobile hamburger menu
-│   └── Footer.tsx          # Footer with social links
+│   ├── Footer.tsx          # Footer with social links
+│   └── ContactForm.tsx     # 📧 Contact Form component (Client Component)
 ├── public/
 │   ├── pic.jpg             # Profile photo
 │   ├── Resume.pdf          # Downloadable resume
@@ -136,7 +136,7 @@ npm start
 
 ## 📧 EmailJS Configuration
 
-The contact form uses **EmailJS** to send emails directly from the browser. The credentials are configured in [`app/contact/page.tsx`](app/contact/page.tsx):
+The contact form uses **EmailJS** to send emails directly from the browser. The credentials are configured in [`components/ContactForm.tsx`](components/ContactForm.tsx):
 
 ```typescript
 emailjs.sendForm(
