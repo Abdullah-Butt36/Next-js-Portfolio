@@ -100,7 +100,7 @@ export default function Home() {
         <div className="absolute w-[110%] h-[110%] rounded-full z-0 blur-[4px] opacity-60 animate-spin-ring bg-gradient-to-r from-transparent via-[#00d2ff] to-[#3a7bd5]"></div>
         <div className="relative z-10 rounded-full p-[5px] bg-gradient-to-br from-[#00d2ff] via-[#3a7bd5] to-[#7c3aed]">
           <Image
-            src="/pic.jpg"
+            src="/pic.png"
             alt="Abdullah Butt"
             width={300}
             height={300}
