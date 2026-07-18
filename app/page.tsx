@@ -62,7 +62,7 @@ export default function Home() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>
           </Link>
-          <a href="/Resume.pdf" download className="inline-flex items-center justify-center gap-2 py-3 px-6 rounded-full text-sm md:text-base font-semibold transition-all duration-300 cursor-pointer bg-[#00d2ff]/8 border border-[#00d2ff]/25 text-[#00d2ff] hover:bg-[#00d2ff]/15 hover:border-[#00d2ff] hover:shadow-[0_8px_24px_rgba(0,210,255,0.2)] hover:-translate-y-[3px] whitespace-nowrap">
+          <a href="/Abdullah Aslam - Professional Resume.pdf" download className="inline-flex items-center justify-center gap-2 py-3 px-6 rounded-full text-sm md:text-base font-semibold transition-all duration-300 cursor-pointer bg-[#00d2ff]/8 border border-[#00d2ff]/25 text-[#00d2ff] hover:bg-[#00d2ff]/15 hover:border-[#00d2ff] hover:shadow-[0_8px_24px_rgba(0,210,255,0.2)] hover:-translate-y-[3px] whitespace-nowrap">
             Download CV
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />

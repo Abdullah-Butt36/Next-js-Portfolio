@@ -23,8 +23,11 @@ export const metadata: Metadata = {
   title: "Abdullah Butt | Full-Stack Developer",
   description: "Explore my latest full-stack projects, core development skills, and professional journey.",
   icons: {
-    icon: "/image.png",
-    apple: "/image.png",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: "/favicon.png",
   },
   openGraph: {
     title: "Abdullah Butt | Full-Stack Developer",
